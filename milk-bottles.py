@@ -22,16 +22,9 @@ def create_last_symbols(bottle):
     match bottle:
         case 1:
             return 'кa'
-        case 2:
-            return 'ки'
-        case 3: 
-            return 'ки'
-        case 4:
+        case 2 | 3 | 4:
             return 'ки'
         case default:
             return 'ок'
         
 cycle_milk_poem(100)
-    
-
-    
